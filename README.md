@@ -10,7 +10,7 @@
 
 #### Sectors and topics:
 
-[define]
+
 
 ### **Legacy EDI Modernization, EDI-to-API & MCP Infrastructure**
 
