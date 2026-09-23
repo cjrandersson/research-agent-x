@@ -1,4 +1,4 @@
-# Sändeman Research Agent
+# **Sändeman Research Agent**
 
 **360° Venture Intelligence & Wide-Angle Market Research**
 
