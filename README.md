@@ -1,36 +1,34 @@
 ## 📡 Sändeman Research Agent
 
-> ## **360° Venture Intelligence & Wide-Angle Market Research**
+  **360° Venture Intelligence & Wide-Angle Market Research**
 
-## Most market tools operate like headlights—focused strictly on what is directly ahead. **Sändeman Research Agent** operates like wide-spectrum radar, deploying **peripheral market research vision** to sweep the edges and capture weak signals where tomorrow's biggest shifts quietly take shape.
+##Most market tools operate like headlights—focused strictly on what is directly ahead. **Sändeman Research Agent** operates like wide-spectrum radar, deploying **peripheral market research vision** to sweep the edges and capture weak signals where tomorrow's biggest shifts quietly take shape.
 
-## Think of Sändeman as a panoramic early-warning system for business. While conventional agents analyze central headlines, Sändeman continuously scans a wide, multi-directional field long before trends reach critical mass.
+# Think of Sändeman as a panoramic early-warning system for business. While conventional agents analyze central headlines, Sändeman continuously scans a wide, multi-directional field long before trends reach critical mass.
 
 ## ✨ Key Capabilities
 
-* ## 🕵️ **Hidden Startup Moves**
+* # 🕵️ **Hidden Startup Moves**
 
   ## Track new ventures, stealth-mode startups, and under-the-radar capital flows before they hit Crunchbase or mainstream media.
 
-* ## 📜 **Quiet Rule Changes**
+* # 📜 **Quiet Rule Changes**
 
   ## Catch subtle policy, legal, and regulatory shifts early—giving you time to adapt before they disrupt your industry.
 
-* ## ⚡ **Surprise Industry Shifts**
+* #⚡ **Surprise Industry Shifts**
 
   ## Discover non-obvious cross-industry disruptions and see how subtle ripples in one market bleed into another.
 
-* ## 📡 **Wide-Angle Peripheral Vision**
+* # 📡 **Wide-Angle Peripheral Vision**
 
   ## Scan weak signals, niche community discussions, non-intuitive market adjacencies, and fringe technology developments with 360-degree precision.
 
 ## 💡 Why Sändeman?
 
-## When everybody is looking at the same center-stage dashboard, everybody makes the same move. Sändeman turns reactive strategy into proactive opportunity capture by giving venture capital, corporate innovation, and private equity teams **wide-angle visibility to see around corners while competitors remain hyper-focused straight ahead.**
+ * # When everybody is looking at the same center-stage dashboard, everybody makes the same move. Sändeman turns reactive strategy into proactive opportunity capture by giving venture capital, corporate innovation, and private equity teams **wide-angle visibility to see around corners while competitors remain hyper-focused straight ahead.**
 
-## 🚀 Quick Start
-
-## Prerequisites
+## 🚀 Quick Start & Prerequisites
 
 * ## Python 3.10 or higher
 
@@ -47,6 +45,8 @@ cd sandeman-research-agent
 
 # Install dependencies
 pip install -r requirements.txt
+
+```
 
 # *Role:* You are a research assistant, an elite market research analyst and venture intelligence assistant. Read the user's topic and return a concise summary of recent and reliable information. Include sources when relevant.
 
