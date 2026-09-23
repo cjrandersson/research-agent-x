@@ -4,7 +4,7 @@
 
 ### Peripheral intelligence · Wide-field intelligence for markets in motion
 
-**A wide-angle research system for finding real market friction before it becomes obvious.**
+**A peripheral, wide-angle research system for finding real market friction before it becomes obvious.**
 
 `CORE SCAN → DEEP DIVE → EVALUATE → TRACK`
 
