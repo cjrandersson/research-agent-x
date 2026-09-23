@@ -10,7 +10,7 @@
 
  ## ✨ Key Capabilities
 
-* # 🕵️ **Hidden Startup Moves**
+ # 🕵️ **Hidden Startup Moves**
 
   ## Track new ventures, stealth-mode startups, and under-the-radar capital flows before they hit Crunchbase or mainstream media.
 
