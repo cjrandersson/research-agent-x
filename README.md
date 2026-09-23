@@ -8,7 +8,7 @@
 
 
 
-## ✨ Key Capabilities
+ ## ✨ Key Capabilities
 
 * # 🕵️ **Hidden Startup Moves**
 
