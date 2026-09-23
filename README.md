@@ -1,6 +1,6 @@
-## 📡 Sändeman Research Agent
+### 📡 Sändeman Research Agent***
 
-  **360° Venture Intelligence & Wide-Angle Market Research**
+ * # 360° Venture Intelligence & Wide-Angle Market Research**
 
 ##Most market tools operate like headlights—focused strictly on what is directly ahead. **Sändeman Research Agent** operates like wide-spectrum radar, deploying **peripheral market research vision** to sweep the edges and capture weak signals where tomorrow's biggest shifts quietly take shape.
 
