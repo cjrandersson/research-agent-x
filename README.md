@@ -10,19 +10,19 @@
 
  ## ✨ Key Capabilities
 
-  🕵️ **Hidden Startup Moves
+ - 🕵️ Hidden Startup Moves
 
   ## Track new ventures, stealth-mode startups, and under-the-radar capital flows before they hit Crunchbase or mainstream media.
 
-* # 📜 **Quiet Rule Changes**
+ - 📜 **Quiet Rule Changes**
 
   ## Catch subtle policy, legal, and regulatory shifts early—giving you time to adapt before they disrupt your industry.
 
-* #⚡ **Surprise Industry Shifts**
+ - ⚡ **Surprise Industry Shifts**
 
   ## Discover non-obvious cross-industry disruptions and see how subtle ripples in one market bleed into another.
 
-* # 📡 **Wide-Angle Peripheral Vision**
+ - 📡 **Wide-Angle Peripheral Vision**
 
   ## Scan weak signals, niche community discussions, non-intuitive market adjacencies, and fringe technology developments with 360-degree precision.
 
