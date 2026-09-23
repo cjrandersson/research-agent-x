@@ -1,9 +1,10 @@
-HUR ?
-Bygger vi detta?
-Verifierar vi data?
-Validerar vi data?
-Visualiserar vi data, gör det läsbart och jämförtbart över tid?
-Simplifierat/kortfattat:
+## HUR?##
+- Bygger vi detta?
+- Verifierar vi data?
+- Validerar vi data?
+- Visualiserar vi data, gör det läsbart och jämförtbart över tid?
+
+#Simplifierat/kortfattat:#
 
 Ett litet research-system i fyra lager, där varje lager bara gör det som behövs just då. Det gör prompten lättare att köra, lättare att förstå och mycket bättre för återkommande research.
 
