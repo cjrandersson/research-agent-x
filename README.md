@@ -12,6 +12,69 @@
 
 ---
 
+# 🛰️ Development Status — Team Cockpit
+
+> **This is the operational source of truth for where the project is right now.**  
+> Update this section whenever implementation status, architecture, milestone completion or the immediate next step changes.
+
+| | Current state |
+|---|---|
+| **Current milestone** | **M1 — Sändeman Core v0.1: executable foundation** |
+| **Status** | 🟡 **READY TO IMPLEMENT** |
+| **Current objective** | Turn the defined architecture into the first executable Python package and canonical data pipeline |
+| **Exact next code task** | Create `pyproject.toml`, `src/sandeman/` and typed canonical models for `Source`, `RawDocument`, `Observation`, `Event` and `SignalCluster` |
+| **Blocked / waiting on team** | **Nothing** |
+| **Next milestone** | **M2 — First real source adapters + provenance/deduplication pipeline** |
+| **Last updated** | **2026-09-25** |
+
+### Milestone progress
+
+- [x] **M0 — Product & architecture definition**
+  - [x] Research policy and Core Scan / Deep Dive model
+  - [x] Founder Opportunity Profile selected for V1
+  - [x] Initial research domain locked
+  - [x] Sändeman Core architecture defined
+  - [x] Canonical data model defined
+  - [x] Signal Engine contract defined
+  - [x] Source Registry rules defined
+  - [x] Historical `as_of` / backtest requirement defined
+  - [x] Swedish first-class explanation layer added
+
+- [ ] **M1 — Sändeman Core v0.1: executable foundation** ← **CURRENT**
+  - [ ] Create Python package scaffold
+  - [ ] Implement typed canonical models
+  - [ ] Implement Source Registry loader / schema
+  - [ ] Implement immutable RawDocument ingestion contract
+  - [ ] Implement `Observation → Event` transformation contract
+  - [ ] Add basic persistence with historical timestamps
+  - [ ] Add `as_of` filtering contract
+  - [ ] Add unit tests for model validation and temporal rules
+
+- [ ] **M2 — Ingestion + provenance**
+  - [ ] Add first real source adapters
+  - [ ] Canonical normalization
+  - [ ] Deduplication
+  - [ ] Evidence-root / provenance tracking
+  - [ ] Entity resolution foundation
+
+- [ ] **M3 — Signal Engine + historical replay**
+  - [ ] Signal clustering
+  - [ ] Anomaly / velocity / convergence features
+  - [ ] Internal signal vector
+  - [ ] Historical replay runner
+  - [ ] First backtest against a defined historical case
+
+- [ ] **M4 — Founder Opportunity research loop**
+  - [ ] Core Scan output from real data
+  - [ ] Deep Dive escalation
+  - [ ] Opportunity log
+  - [ ] Weekly Radar V1
+  - [ ] First measurable Precision@K / lead-time benchmark
+
+**Rule:** a meaningful project change is not fully documented until this cockpit reflects the new state.
+
+---
+
 ## Vad är Sändeman? 🇸🇪
 
 **Sändeman letar efter flera små, oberoende förändringar som tillsammans kan avslöja ett viktigt marknadsskifte innan det blivit uppenbart.**
@@ -284,7 +347,7 @@ Sändeman actively looks for evidence that both **supports and weakens** an oppo
 | **[Signal Engine](./docs/SIGNAL_ENGINE.md)** | Signal features, noise reduction, escalation and benchmark metrics |
 | **[Source Registry](./docs/SOURCE_REGISTRY.md)** | Source governance, source families, ingestion phases and provenance rules |
 | **[Decision Log](./docs/DECISIONS.md)** | Locked architectural and product choices |
-| **README** | Minimal project overview and navigation |
+| **README** | Project overview, navigation and live development cockpit |
 
 ---
 
