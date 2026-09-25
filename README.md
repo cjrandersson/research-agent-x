@@ -15,7 +15,7 @@
 # 🛰️ Development Status — Team Cockpit
 
 > **This is the operational source of truth for where the project is right now.**  
-> Update this section whenever implementation status, architecture, milestone completion or the immediate next step changes.
+> Update this section whenever implementation status, architecture, milestone completion, ownership or the immediate next step changes.
 
 | | Current state |
 |---|---|
@@ -23,9 +23,21 @@
 | **Status** | 🟡 **READY TO IMPLEMENT** |
 | **Current objective** | Turn the defined architecture into the first executable Python package and canonical data pipeline |
 | **Exact next code task** | Create `pyproject.toml`, `src/sandeman/` and typed canonical models for `Source`, `RawDocument`, `Observation`, `Event` and `SignalCluster` |
-| **Blocked / waiting on team** | **Nothing** |
+| **Next-task owner** | **Codex** |
+| **Blocked / waiting on team** | ✅ **Nothing** |
 | **Next milestone** | **M2 — First real source adapters + provenance/deduplication pipeline** |
 | **Last updated** | **2026-09-25** |
+
+### Active ownership / pending
+
+| Owner | Pending now | State |
+|---|---|---|
+| **@cjrandersson** | Nothing required before M1 implementation can start | ✅ **CLEAR** |
+| **ChatGPT** | Keep architecture, definitions, review findings and this cockpit synchronized whenever the project changes | 🟢 **ACTIVE RULE** |
+| **Codex** | Implement the M1 Python scaffold and canonical typed models | 🟡 **NEXT MOVE** |
+| **Gonzalo** | Nothing assigned yet | ⚪ **CLEAR** |
+
+> **Ownership rule:** nothing may be marked `pending`, `blocked`, `waiting` or `next` without an explicit owner. If Robin must act, show it explicitly as `🚨 @cjrandersson — <required action>`. Use `ChatGPT`, `Codex` or a named collaborator for other owners. Do not invent GitHub handles.
 
 ### Milestone progress
 
@@ -41,14 +53,14 @@
   - [x] Swedish first-class explanation layer added
 
 - [ ] **M1 — Sändeman Core v0.1: executable foundation** ← **CURRENT**
-  - [ ] Create Python package scaffold
-  - [ ] Implement typed canonical models
-  - [ ] Implement Source Registry loader / schema
-  - [ ] Implement immutable RawDocument ingestion contract
-  - [ ] Implement `Observation → Event` transformation contract
-  - [ ] Add basic persistence with historical timestamps
-  - [ ] Add `as_of` filtering contract
-  - [ ] Add unit tests for model validation and temporal rules
+  - [ ] Create Python package scaffold — **Codex**
+  - [ ] Implement typed canonical models — **Codex**
+  - [ ] Implement Source Registry loader / schema — **Codex**
+  - [ ] Implement immutable RawDocument ingestion contract — **Codex**
+  - [ ] Implement `Observation → Event` transformation contract — **Codex**
+  - [ ] Add basic persistence with historical timestamps — **Codex**
+  - [ ] Add `as_of` filtering contract — **Codex**
+  - [ ] Add unit tests for model validation and temporal rules — **Codex**
 
 - [ ] **M2 — Ingestion + provenance**
   - [ ] Add first real source adapters
@@ -71,7 +83,7 @@
   - [ ] Weekly Radar V1
   - [ ] First measurable Precision@K / lead-time benchmark
 
-**Rule:** a meaningful project change is not fully documented until this cockpit reflects the new state.
+**Rule:** a meaningful project change is not fully documented until this cockpit reflects the new state **and the correct owner for every pending action**.
 
 ---
 
