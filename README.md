@@ -54,6 +54,42 @@ WEEKLY RADAR
 
 ---
 
+## Sändeman Core
+
+The research policy above remains the human-readable operating model. Underneath it, Sändeman is now being defined as a **temporal signal engine** that turns fragmented source material into persistent, traceable and falsifiable signals.
+
+```text
+RAW DOCUMENT
+     ↓
+OBSERVATION
+     ↓
+EVENT
+     ↓
+SIGNAL CLUSTER
+     ↓
+CORE SCAN
+     ↓
+DEEP DIVE
+     ↓
+HYPOTHESIS
+     ↓
+OPPORTUNITY
+     ↓
+TRACK / TEST / INVALIDATE
+```
+
+Core architectural principles:
+
+- provenance before source-count inflation
+- temporal history and reproducible `as_of` backtesting from day one
+- deterministic state, scoring and thresholds outside the LLM
+- internal numerical signal features, interpretable external output
+- evidence that both strengthens and weakens hypotheses
+
+The Core Engine is designed to remain profile-agnostic so different research profiles can later use the same underlying evidence system.
+
+---
+
 ## What the radar looks for
 
 <table>
@@ -215,6 +251,11 @@ Sändeman actively looks for evidence that both **supports and weakens** an oppo
 |---|---|
 | **[Weekly Research Handbook](./WEEKLY_RESEARCH_HANDBOOK.md)** | Source of truth for layers, definitions, metrics, visualization and weekly research rules |
 | **[How it is built & how we run it](./HUR%20BYGGS%20DET%20%26%20HUR%20K%C3%96R%20VI%20DET.md)** | Simplified operating model and research flow |
+| **[Core Architecture](./docs/ARCHITECTURE.md)** | Technical system boundaries, machine pipeline, LLM responsibilities and temporal requirements |
+| **[Data Model](./docs/DATA_MODEL.md)** | Canonical objects, traceability rules and initial relational schema |
+| **[Signal Engine](./docs/SIGNAL_ENGINE.md)** | Signal features, noise reduction, escalation and benchmark metrics |
+| **[Source Registry](./docs/SOURCE_REGISTRY.md)** | Source governance, source families, ingestion phases and provenance rules |
+| **[Decision Log](./docs/DECISIONS.md)** | Locked architectural choices and unresolved product decisions |
 | **README** | Minimal project overview and navigation |
 
 ---
