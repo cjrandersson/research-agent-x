@@ -38,23 +38,15 @@ Timestamps, provenance, deduplication, scoring arithmetic, thresholds and persis
 
 New sources are added only when they improve anomaly detection, velocity, independent validation, commercial evidence, counter-evidence or historical replay.
 
-## Pending
+### D-008 — V1 is Founder Opportunity first
 
-### P-001 — Primary V1 user
+Sändeman V1 is built first as our own venture-discovery system using a **Founder Opportunity Profile**.
 
-Choose one:
+The underlying **Sändeman Core** remains profile-agnostic so VC Scout, Corporate Strategy and other profiles can be added later without rebuilding the evidence engine.
 
-**A. Founder Opportunity first**  
-Use Sändeman primarily as our own venture-discovery system first, while keeping Sändeman Core profile-agnostic.
+### D-009 — Initial research domain
 
-**B. Commercial VC Intelligence first**  
-Design the first product experience directly for external VC/strategy users.
-
-Current recommendation: **A**.
-
-### P-002 — Initial research domain
-
-Proposed initial domain:
+The first research domain is:
 
 **Enterprise infrastructure & emerging B2B software**
 
@@ -65,4 +57,16 @@ Initial subdomains:
 - integration / interoperability
 - vertical operational software
 
-Decision needed: approve as-is or edit.
+The purpose of the initial scope is to improve signal quality, evaluation quality and backtesting before expanding into broader sectors.
+
+### D-010 — Swedish must be a first-class explanation layer
+
+Sändeman must be documented in clear Swedish as well as in technical English.
+
+The Swedish layer should explain the product, research logic and architecture in the simplest accurate language possible, so new collaborators can understand the idea without first reading technical specifications.
+
+Technical terms may remain in English where that is clearer, but each important concept should have a simple Swedish explanation.
+
+## Pending
+
+No blocking product decisions are currently pending.
