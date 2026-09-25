@@ -12,6 +12,18 @@
 
 ---
 
+## Vad är Sändeman? 🇸🇪
+
+**Sändeman letar efter flera små, oberoende förändringar som tillsammans kan avslöja ett viktigt marknadsskifte innan det blivit uppenbart.**
+
+Kortare:
+
+> **Sändeman försöker se vad som håller på att hända, inte bara vad alla redan pratar om.**
+
+➡️ **[Läs den enkla svenska förklaringen](./docs/SANDEMAN_PA_SVENSKA.md)**
+
+---
+
 ## What is Sändeman?
 
 Sändeman is a research framework for continuously discovering and validating **evidence-backed startup opportunities**.
@@ -168,6 +180,21 @@ The Core Engine is designed to remain profile-agnostic so different research pro
 
 ---
 
+## V1 research domain
+
+Sändeman V1 is intentionally narrower than the long-term research universe.
+
+**Initial domain:** Enterprise infrastructure & emerging B2B software
+
+- AI infrastructure
+- developer tooling
+- integration / interoperability
+- vertical operational software
+
+The first product profile is the **Founder Opportunity Profile**: Sändeman is used as our own venture-discovery system first, while the underlying Core Engine remains reusable for later VC, strategy and market-intelligence profiles.
+
+---
+
 ## Geographic lens
 
 **Primary**  
@@ -249,13 +276,14 @@ Sändeman actively looks for evidence that both **supports and weakens** an oppo
 
 | Document | Purpose |
 |---|---|
+| **[Sändeman på svenska](./docs/SANDEMAN_PA_SVENSKA.md)** | Simple Swedish explanation for collaborators and non-specialist readers |
 | **[Weekly Research Handbook](./WEEKLY_RESEARCH_HANDBOOK.md)** | Source of truth for layers, definitions, metrics, visualization and weekly research rules |
 | **[How it is built & how we run it](./HUR%20BYGGS%20DET%20%26%20HUR%20K%C3%96R%20VI%20DET.md)** | Simplified operating model and research flow |
 | **[Core Architecture](./docs/ARCHITECTURE.md)** | Technical system boundaries, machine pipeline, LLM responsibilities and temporal requirements |
 | **[Data Model](./docs/DATA_MODEL.md)** | Canonical objects, traceability rules and initial relational schema |
 | **[Signal Engine](./docs/SIGNAL_ENGINE.md)** | Signal features, noise reduction, escalation and benchmark metrics |
 | **[Source Registry](./docs/SOURCE_REGISTRY.md)** | Source governance, source families, ingestion phases and provenance rules |
-| **[Decision Log](./docs/DECISIONS.md)** | Locked architectural choices and unresolved product decisions |
+| **[Decision Log](./docs/DECISIONS.md)** | Locked architectural and product choices |
 | **README** | Minimal project overview and navigation |
 
 ---
