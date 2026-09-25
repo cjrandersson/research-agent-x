@@ -67,6 +67,24 @@ The Swedish layer should explain the product, research logic and architecture in
 
 Technical terms may remain in English where that is clearer, but each important concept should have a simple Swedish explanation.
 
+### D-011 — README is the live development cockpit
+
+The repository front page must always show the current development state clearly enough that the team can understand where Sändeman is without reading issues, chat history or commit logs.
+
+The README must always contain, near the top:
+
+- current phase / milestone
+- current status
+- exact next code task
+- milestone checklist with completed items checked off
+- what follows immediately after the current milestone
+- whether anything is blocked or waiting for a team decision
+- last-updated date
+
+**Primary maintenance rule:** any meaningful change to implementation status, architecture, milestone completion or next-step priority is not considered fully documented until the README development-status section has also been updated.
+
+The status block is for the team first. It should optimize for operational clarity rather than presentation to outsiders.
+
 ## Pending
 
 No blocking product decisions are currently pending.
